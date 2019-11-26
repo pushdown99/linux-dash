@@ -1,7 +1,4 @@
 #!/bin/sh
 
-set -e
-
-mkdir -p /opt/linux-dash
 cd /opt/linux-dash
-npm install --save
+npm install /opt/linux-dash

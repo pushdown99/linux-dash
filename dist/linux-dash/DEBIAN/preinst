@@ -1,2 +1,11 @@
 #!/bin/sh
 /bin/rm -rf  /opt/linux-dash
+
+set -e
+USER="root"
+
+mkdir -p /opt/linux-dash
+mkdir -p /opt/linux-dash/config
+mkdir -p /opt/linux-dash/node_modules
+
+chown -R $USER /opt/linux-dash/node_modules
