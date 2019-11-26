@@ -1,0 +1,12 @@
+Package: linux-dash
+Version: 1.0.2
+Section: devel
+Priority: optional
+Architecture: amd64 
+Depends: nodejs, npm 
+Recommends: 
+Maintainer: haeyun <haeyun@gmail.com>
+Homepage: 
+Description: Linux Reource Management Dashboard
+ 1.0.1 : message #1 
+ 1.0.2 : message #2 
